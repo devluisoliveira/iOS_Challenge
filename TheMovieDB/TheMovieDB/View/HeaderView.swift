@@ -60,4 +60,3 @@ class HeaderView: UICollectionReusableView {
         delegate?.handleDismissal()
     }
 }
-
