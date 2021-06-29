@@ -111,7 +111,7 @@ class MovieDetailsController: UICollectionViewController, UICollectionViewDelega
                     }
                 }
             }
-    }
+}
 
 extension MovieDetailsController {
     

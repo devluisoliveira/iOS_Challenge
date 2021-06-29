@@ -7,6 +7,8 @@
 
 import UIKit
 
+import UIKit
+
 class MainTabController: UITabBarController {
     //MARK: - Properties
     
@@ -26,15 +28,18 @@ class MainTabController: UITabBarController {
     func configureViewControllers() {
         
         ///NowPlaying
-        let nowplaying = NowPlayingController(collectionViewLayout: UICollectionViewFlowLayout())
+        let viewModelNowPlaying = NowPlayingViewModel(navigationDelegate: self)
+        let nowplaying = NowPlayingController(viewModel: viewModelNowPlaying)
         let nav1 = templateNavigationController(image: UIImage(systemName: "house"), rootViewController: nowplaying, title: "Now Playing")
         
         ///Popular
-        let popular = PopularController(collectionViewLayout: UICollectionViewFlowLayout())
+        let viewModelPopular = PopularViewModel(navigationDelegate: self)
+        let popular = PopularController(viewModel: viewModelPopular)
         let nav2 = templateNavigationController(image: UIImage(systemName: "list.bullet.below.rectangle"), rootViewController: popular, title: "Popular")
         
         ///TopRated
-        let toprated = TopRatedController(collectionViewLayout: UICollectionViewFlowLayout())
+        let viewModelTopRated = TopRatedViewModel(navigationDelegate: self)
+        let toprated = TopRatedController(viewModel: viewModelTopRated)
         let nav3 = templateNavigationController(image: UIImage(systemName: "globe"), rootViewController: toprated, title: "Top Rated")
         
         ///Search
@@ -51,4 +56,16 @@ class MainTabController: UITabBarController {
         nav.tabBarItem.title = title
         return nav
     }
+    
 }
+
+extension MainTabController: NowPlayingNavigationProtocol {
+    func gotoMovieDetails(movie_id: Movie) {
+        let viewModelMovieDetail = MovieDetailsViewModel(navigationDelegate: self, movie_id: movie_id.id!)
+        let controller = MovieDetailsController(viewModel: viewModelMovieDetail)
+        push(controller)
+    }
+}
+extension MainTabController: PopularNavigationProtocol {}
+extension MainTabController: TopRatedNavigationProtocol {}
+extension MainTabController: MovieDetailsNavigationProtocol {}
