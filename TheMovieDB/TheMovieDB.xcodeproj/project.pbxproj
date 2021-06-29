@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,6 +31,7 @@
 		8758EA70268ACB2300DBB1A2 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA6F268ACB2300DBB1A2 /* MovieDetails.swift */; };
 		8758EA72268ACB3D00DBB1A2 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA71268ACB3D00DBB1A2 /* Movies.swift */; };
 		8758EA74268ACB4600DBB1A2 /* Similar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA73268ACB4600DBB1A2 /* Similar.swift */; };
+		8758EA76268ACE8800DBB1A2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA75268ACE8800DBB1A2 /* MovieCell.swift */; };
 		D8F9582C648CA369A1FFC39B /* Pods_TheMovieDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6480CA4B5D9316B6A9ADC4 /* Pods_TheMovieDB.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		8758EA6F268ACB2300DBB1A2 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
 		8758EA71268ACB3D00DBB1A2 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		8758EA73268ACB4600DBB1A2 /* Similar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Similar.swift; sourceTree = "<group>"; };
+		8758EA75268ACE8800DBB1A2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		D1D43CFDC03000CF1E57A8B3 /* Pods-TheMovieDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMovieDB.release.xcconfig"; path = "Target Support Files/Pods-TheMovieDB/Pods-TheMovieDB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +86,6 @@
 				233F149A69BA0932437900F2 /* Pods-TheMovieDB.debug.xcconfig */,
 				D1D43CFDC03000CF1E57A8B3 /* Pods-TheMovieDB.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -178,6 +179,7 @@
 		8758EA47268AC3F900DBB1A2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8758EA75268ACE8800DBB1A2 /* MovieCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -386,6 +388,7 @@
 				8758EA58268AC5F800DBB1A2 /* SearchController.swift in Sources */,
 				8758EA56268AC5E900DBB1A2 /* TopRatedController.swift in Sources */,
 				8758EA50268AC4D000DBB1A2 /* MainTabController.swift in Sources */,
+				8758EA76268ACE8800DBB1A2 /* MovieCell.swift in Sources */,
 				8758EA64268AC81800DBB1A2 /* UIColor.swift in Sources */,
 				8758EA74268ACB4600DBB1A2 /* Similar.swift in Sources */,
 				8758EA31268AC1B600DBB1A2 /* SceneDelegate.swift in Sources */,
