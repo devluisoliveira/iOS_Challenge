@@ -37,6 +37,7 @@
 		8758EA7C268AD1CE00DBB1A2 /* SlidePhotoMoviesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA7B268AD1CD00DBB1A2 /* SlidePhotoMoviesCell.swift */; };
 		8758EA7E268AD1FE00DBB1A2 /* PopularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA7D268AD1FE00DBB1A2 /* PopularCell.swift */; };
 		8758EA80268AD28800DBB1A2 /* TopRatedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA7F268AD28800DBB1A2 /* TopRatedCell.swift */; };
+		8758EA82268AD2CF00DBB1A2 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA81268AD2CF00DBB1A2 /* FooterView.swift */; };
 		D8F9582C648CA369A1FFC39B /* Pods_TheMovieDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6480CA4B5D9316B6A9ADC4 /* Pods_TheMovieDB.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		8758EA7B268AD1CD00DBB1A2 /* SlidePhotoMoviesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidePhotoMoviesCell.swift; sourceTree = "<group>"; };
 		8758EA7D268AD1FE00DBB1A2 /* PopularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCell.swift; sourceTree = "<group>"; };
 		8758EA7F268AD28800DBB1A2 /* TopRatedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedCell.swift; sourceTree = "<group>"; };
+		8758EA81268AD2CF00DBB1A2 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		D1D43CFDC03000CF1E57A8B3 /* Pods-TheMovieDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheMovieDB.release.xcconfig"; path = "Target Support Files/Pods-TheMovieDB/Pods-TheMovieDB.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,6 +197,7 @@
 				8758EA7B268AD1CD00DBB1A2 /* SlidePhotoMoviesCell.swift */,
 				8758EA7D268AD1FE00DBB1A2 /* PopularCell.swift */,
 				8758EA7F268AD28800DBB1A2 /* TopRatedCell.swift */,
+				8758EA81268AD2CF00DBB1A2 /* FooterView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8758EA82268AD2CF00DBB1A2 /* FooterView.swift in Sources */,
 				8758EA33268AC1B600DBB1A2 /* ViewController.swift in Sources */,
 				8758EA68268AC83F00DBB1A2 /* UIImageView.swift in Sources */,
 				8758EA5F268AC7EC00DBB1A2 /* Constants.swift in Sources */,
