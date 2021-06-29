@@ -20,6 +20,13 @@
 		8758EA58268AC5F800DBB1A2 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA57268AC5F800DBB1A2 /* SearchController.swift */; };
 		8758EA5A268AC61100DBB1A2 /* MovieDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA59268AC61100DBB1A2 /* MovieDetailsController.swift */; };
 		8758EA5D268AC64100DBB1A2 /* ResultsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA5C268AC64100DBB1A2 /* ResultsSearchController.swift */; };
+		8758EA5F268AC7EC00DBB1A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA5E268AC7EC00DBB1A2 /* Constants.swift */; };
+		8758EA61268AC80000DBB1A2 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA60268AC80000DBB1A2 /* UIView.swift */; };
+		8758EA64268AC81800DBB1A2 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA63268AC81800DBB1A2 /* UIColor.swift */; };
+		8758EA66268AC82900DBB1A2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA65268AC82900DBB1A2 /* Utilities.swift */; };
+		8758EA68268AC83F00DBB1A2 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA67268AC83F00DBB1A2 /* UIImageView.swift */; };
+		8758EA6A268AC85500DBB1A2 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA69268AC85500DBB1A2 /* UILabel.swift */; };
+		8758EA6C268AC86200DBB1A2 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8758EA6B268AC86200DBB1A2 /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +45,13 @@
 		8758EA57268AC5F800DBB1A2 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
 		8758EA59268AC61100DBB1A2 /* MovieDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsController.swift; sourceTree = "<group>"; };
 		8758EA5C268AC64100DBB1A2 /* ResultsSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsSearchController.swift; sourceTree = "<group>"; };
+		8758EA5E268AC7EC00DBB1A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8758EA60268AC80000DBB1A2 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		8758EA63268AC81800DBB1A2 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		8758EA65268AC82900DBB1A2 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8758EA67268AC83F00DBB1A2 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		8758EA69268AC85500DBB1A2 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		8758EA6B268AC86200DBB1A2 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +112,13 @@
 		8758EA43268AC3C500DBB1A2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8758EA5E268AC7EC00DBB1A2 /* Constants.swift */,
+				8758EA60268AC80000DBB1A2 /* UIView.swift */,
+				8758EA63268AC81800DBB1A2 /* UIColor.swift */,
+				8758EA65268AC82900DBB1A2 /* Utilities.swift */,
+				8758EA67268AC83F00DBB1A2 /* UIImageView.swift */,
+				8758EA69268AC85500DBB1A2 /* UILabel.swift */,
+				8758EA6B268AC86200DBB1A2 /* UIViewController.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -271,12 +292,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8758EA33268AC1B600DBB1A2 /* ViewController.swift in Sources */,
+				8758EA68268AC83F00DBB1A2 /* UIImageView.swift in Sources */,
+				8758EA5F268AC7EC00DBB1A2 /* Constants.swift in Sources */,
+				8758EA66268AC82900DBB1A2 /* Utilities.swift in Sources */,
 				8758EA52268AC5A200DBB1A2 /* NowPlayingController.swift in Sources */,
 				8758EA5A268AC61100DBB1A2 /* MovieDetailsController.swift in Sources */,
+				8758EA6A268AC85500DBB1A2 /* UILabel.swift in Sources */,
+				8758EA61268AC80000DBB1A2 /* UIView.swift in Sources */,
+				8758EA6C268AC86200DBB1A2 /* UIViewController.swift in Sources */,
 				8758EA2F268AC1B600DBB1A2 /* AppDelegate.swift in Sources */,
 				8758EA58268AC5F800DBB1A2 /* SearchController.swift in Sources */,
 				8758EA56268AC5E900DBB1A2 /* TopRatedController.swift in Sources */,
 				8758EA50268AC4D000DBB1A2 /* MainTabController.swift in Sources */,
+				8758EA64268AC81800DBB1A2 /* UIColor.swift in Sources */,
 				8758EA31268AC1B600DBB1A2 /* SceneDelegate.swift in Sources */,
 				8758EA5D268AC64100DBB1A2 /* ResultsSearchController.swift in Sources */,
 				8758EA54268AC5CE00DBB1A2 /* PopularController.swift in Sources */,
